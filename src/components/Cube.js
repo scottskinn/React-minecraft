@@ -1,5 +1,6 @@
 import { useBox } from "@react-three/cannon";
-import { useStore } from "@react-three/fiber";
+// import { useStore } from "@react-three/fiber";
+import { useStore } from "../hooks/useStore";
 import * as textures from '../images/textures';
 
 export const Cube = ({ position, texture}) => {
