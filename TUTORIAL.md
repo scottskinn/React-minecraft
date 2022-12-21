@@ -11,6 +11,7 @@
 - [x] Cubes
 - [x] Adding Cubes
 - [x] Removing Cubes
-- [] Cube type selector
-- [] Save world in local-storage
+- [x] Cube type selector
+- [x] Save world in local-storage
+- [] Hover state on cubes
 - [] Build a house
