@@ -65,3 +65,22 @@ body {
   top: 12px;
   left: 12px;
 }
+
+.menu button {
+  cursor: pointer;
+  padding: 8px;
+  margin: 2px;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}
+
+.menu .saveWorld {
+  background: green;
+}
+
+.menu .resetWorld {
+  background: red;
+}

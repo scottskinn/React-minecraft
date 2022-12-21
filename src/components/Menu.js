@@ -6,10 +6,14 @@ export const Menu = () => {
 
     return (
         <div className="menu absolute">
-            <button onClick={() => saveWorld()}>
+            <button 
+                className="saveWorld"
+                onClick={() => saveWorld()}>
                 Save
             </button>
-            <button onClick={() => resetWorld()}>
+            <button 
+                className="resetWorld"
+                onClick={() => resetWorld()}>
                 Reset
             </button>
         </div>
