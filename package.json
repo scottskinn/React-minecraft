@@ -1,11 +1,13 @@
 {
   "name": "minecraft-react",
+  "homepage": "https://github.io/scottskinn/React-minecraft",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@react-three/cannon": "^6.5.0",
     "@react-three/drei": "^9.47.1",
     "@react-three/fiber": "^8.9.1",
+    "gh-pages": "^4.0.0",
     "nanoid": "^3.1.20",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -15,6 +17,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
